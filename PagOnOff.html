@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<?php
+	include_once 'apagar.php';
+?>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<center>
+		<img src="/home/lis/Documents/OnOff/logoLIS.png" width="10%" height="10%">
+		<div>
+			<ul>
+				<li><a href="">Sala 1</a></li>
+				<li><a href="">Sala 2</a></li>
+				<li><a href="">Sala 3</a></li>
+				<li><a href="">Sala 4</a></li>
+			</ul>
+		</center>
+			<div>
+				<br/>
+				<br/>
+				<form action="apagar.php" method="post">
+					<input id="off" type="submit" value=""/>
+				</form>
+				<form action="encender.php" method="post">
+					<button id="on"></button>
+				</form>
+					<br/>
+					<br/>	
+					<br/>
+					<br/>
+					<p id="onText">Encender Todos</p>
+					<p id="offText">Apagar Todos</p>
+			</div>
+		</div>
+	</div>
+</body>

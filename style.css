@@ -1,0 +1,59 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 30%;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    width: 15%;
+    font-size: 2em;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#on{
+    background-image: url(on-button.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 85px;
+    width: 86px;
+    border: 2px;
+    border-radius: 20px;
+    left: 20%;
+    position: absolute;
+}
+
+#off{
+    background-image: url(Off_button.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 85px;
+    width: 85px;
+    border: 0px;
+    border-radius: 20px;
+    position: absolute;
+    left: 75%;
+}
+
+#onText{
+    position: fixed;
+    left: 20%
+}
+
+#offText{
+    position: fixed;
+    left: 75.6%
+}
